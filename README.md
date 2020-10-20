@@ -69,7 +69,7 @@ auto-favorites
 auto-lastplayed  
 auto-allgames  
 
-The initial batch were based on what I played as a kid, but I am absolutely willing to add more. Please drop your requests at zoggian.design@gmail.com
+The initial system batch were based on what I played as a kid, but I am absolutely willing to add more. Please voice your requests at zoggian.design@gmail.com
 
 ## ToDo
 - [ ] Sound Effects
