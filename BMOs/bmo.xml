@@ -1,0 +1,156 @@
+<!--
+theme name:		BMOs
+version:		1.0
+author:			zoggian
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <include>./layout.xml</include>
+
+	<view name="system">
+		<helpsystem name="help">
+			<pos>2 2</pos>
+		</helpsystem>
+	
+		<image name="system_help" extra="true">
+			<path>./art/system_help.png</path>
+			<pos>0.283 1.00003</pos>
+			<origin>0 1.39</origin>
+			<size>0 0.077</size>
+		</image>
+		
+	</view>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+
+			<carousel name="systemcarousel">
+				<type>horizontal</type>
+				<pos>0.5 0.496</pos>
+				<origin>0.5 0.5</origin>
+				<color>FFFFFF00</color>
+				<size>2 2</size>
+				<logoSize>0.225 0.225</logoSize>
+				<logoScale>1.8</logoScale>
+			</carousel>
+
+			<text name="systemInfo">
+				<pos>0 2</pos>
+				<backgroundColor>FFFFFF00</backgroundColor>
+				<color>FFFFFF</color>
+				<fontSize>0.025</fontSize>
+			</text>
+
+		</view>
+
+	</feature>
+	
+    <view name="video">
+		
+		<video name="md_video">
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<delay>2</delay>			
+		</video>
+		
+		<image name="md_marquee">
+			<pos>2 2</pos>
+		</image>
+
+	</view>		
+	
+	
+    <view name="basic, detailed, video">
+	
+		<image name="background" extra="true">
+			<pos>0 0.5</pos>
+			<origin>0 0.5</origin>
+		</image>
+
+		<image name="gamelist_help" extra="true">
+			<path>./art/gamelist_help.png</path>
+			<pos>0.283 1.00003</pos>
+			<origin>0 1.39</origin>
+			<size>0 0.077</size>
+		</image>
+	
+		<helpsystem name="help">
+			<pos>2 2</pos>
+			<textColor>f11c00</textColor>
+			<iconColor>f11c00</iconColor>
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<fontSize>0.06666666666666</fontSize>
+		</helpsystem>
+		
+
+		<textlist name="gamelist">
+			<origin>-1.37 0.03</origin>
+			<pos>0.01 0.4</pos>
+			<size>0.34 0.4</size>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/NESCyrillic_gamelist.ttf</fontPath>
+			<alignment>left</alignment>
+			<fontSize>0.04</fontSize>
+			<lineSpacing>2.1</lineSpacing>
+			<selectorHeight>0.05</selectorHeight>
+		</textlist>
+		
+		<text name="listLabel" extra="true">
+			<text>Game List</text>
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<origin>0.05 0.05</origin>
+			<pos>0.6122 0.29</pos>
+			<forceUppercase>true</forceUppercase>
+			<color>527f39</color>
+		</text>
+
+		<!-- <text name="md_lbl_genre, md_lbl_developer">
+			<color>000000</color>
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<forceUppercase>true</forceUppercase>
+		</text> -->
+
+		<text name="md_developer, md_publisher">
+			<color>527f39</color>
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<forceUppercase>true</forceUppercase>
+			<size>0.5 w</size>
+			<alignment>center</alignment>
+		</text>
+
+		<text name="md_genre">
+			<color>527f39</color>
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<forceUppercase>true</forceUppercase>
+			<size>0.5 w</size>
+			<alignment>center</alignment>
+			<fontSize>0.04</fontSize>
+		</text>
+
+		<text name="md_publisher">
+			<pos>0.021 0.249</pos>
+		</text>
+
+		<text name="md_developer">
+			<pos>0.021 0.626</pos>
+		</text>
+
+		<text name="md_genre">
+			<pos>0.12 0.170</pos>
+		</text>
+	 
+	</view>
+
+	<view name="basic">
+	</view>
+
+	<view name="detailed">
+	</view>
+	
+	
+	
+	
+</theme>

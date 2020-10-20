@@ -1,0 +1,92 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../bmo.xml</include>
+	
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./system_art.png</path>
+		</image>
+			
+	</view>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+			<image name="logo">
+				<path>./carousel_logo.png</path>
+			</image>
+			
+			<image name="carousel_bar" extra="true">
+				<color>757575</color>
+			</image>
+		
+		</view>
+
+	</feature>
+
+	<view name="basic, detailed, video">
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>2 2</pos>
+			<maxSize>0.1 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		
+		
+	</view>
+
+	<view name="basic">
+	
+	</view>
+
+	<view name="basic, detailed, video">
+	
+		<textlist name="gamelist">
+			<selectorColor>d7e894</selectorColor>
+			<selectedColor>204631</selectedColor>
+			<primaryColor>527f39</primaryColor>
+			<secondaryColor>d7e894</secondaryColor>
+		</textlist>
+
+		<text name="listLabel" extra="true">
+			<text>Configuration</text>
+			<fontPath>./../art/TinyUnicode.ttf</fontPath>
+			<origin>0.05 0.05</origin>
+			<pos>0.6122 0.29</pos>
+			<forceUppercase>true</forceUppercase>
+			<color>527f39</color>
+		</text>
+		
+		<image name="background" extra="true">
+			<path>./menu_background.png</path>
+		</image>
+
+		<text name="md_publisher">
+			<pos>1 0.249</pos>
+		</text>
+
+		<text name="md_developer">
+			<pos>1 0.626</pos>
+		</text>
+
+		<text name="md_genre">
+			<pos>1 0.170</pos>
+		</text>
+
+		<!-- <image name="stripTest" extra="true">
+			<path>./config_audiosettings.png</path>
+			<pos>0.021 0.141</pos>
+			<size>0.436 0</size>
+		</image> -->
+		
+		<image name="md_image">
+			<pos>0.2912 0.1612</pos>
+			<size>0.52 0</size>
+		</image>
+
+		
+	</view>
+	
+</theme>

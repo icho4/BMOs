@@ -1,0 +1,70 @@
+<!--
+theme name:		BMOs
+version:		1.0
+author:			zoggian
+-->
+
+<theme>
+     <formatVersion>3</formatVersion>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+		
+		<image name="background" extra="true">
+			<size>0 1</size>
+		</image>
+
+			<carousel name="systemcarousel">
+				<pos>-0.0 0.3</pos>
+				<size>1.0 0.4</size>
+				<logoSize>0.1916666666666667 0.3703703703703704</logoSize>
+				<maxLogoCount>5</maxLogoCount>
+				<zIndex>101</zIndex>
+			</carousel>
+
+			<text name="systemInfo">
+				<pos>0.00 0.2222222222222222</pos>
+				<size>1 0.050</size>
+				<zIndex>102</zIndex>				
+			</text>
+			
+		<image name="carousel_bar" extra="true">
+			<size>0 0.4814814814814815</size>
+			<pos>0.5 0.2185185185185185</pos>
+			<zIndex>100</zIndex>
+		</image>
+
+		<image name="system_help" extra="true">
+			<size>0 0.1074074074074074</size>
+		</image>	
+
+		</view>
+
+	</feature>	
+
+    <view name="basic, detailed">
+			
+		<image name="background" extra="true">
+			<size>0 1</size>
+		</image>
+		
+		<image name="gamelist_help" extra="true">
+			<size>0 0.1074074074074074</size>
+		</image>
+		
+	</view>
+
+	<view name="basic, detailed,video">
+
+		<textlist name="gamelist">
+			<pos>0.2958333333333333 0.2185185185185185</pos>		
+			<size>0.4083333333333333 0.5481481481481481</size>
+			<lineSpacing>1.375</lineSpacing>
+			<selectorHeight>0.0592592592592593</selectorHeight>
+			<selectorOffsetY>0.0074074074074074</selectorOffsetY>
+		</textlist>
+		
+	</view>
+
+</theme>

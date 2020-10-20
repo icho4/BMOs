@@ -1,0 +1,52 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../bmo.xml</include>
+	
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./system_art.png</path>
+		</image>
+
+	</view>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+			<image name="logo">
+				<path>./carousel_logo.png</path>
+			</image>
+			
+			<image name="carousel_bar" extra="true">
+				<color>757575</color>
+			</image>
+		
+		</view>
+
+	</feature>
+
+	<view name="basic, detailed, video">
+	
+		<textlist name="gamelist">
+			<selectorColor>d7e894</selectorColor>
+			<selectedColor>204631</selectedColor>
+			<primaryColor>527f39</primaryColor>
+			<secondaryColor>d7e894</secondaryColor>
+		</textlist>
+		
+		<image name="background" extra="true">
+			<path>./menu_background.png</path>
+		</image>
+		
+
+		<image name="md_image">
+			<pos>0.269 0.451</pos>
+			<maxSize>0.34 0.34</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+
+	</view>
+	
+</theme>
