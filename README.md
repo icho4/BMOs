@@ -48,6 +48,7 @@ Place video file here
 If you end up having multiple, they can be managed in EmulationStation > Config > Splashscreen
 
 ### Supported Systems
+Arcade
 NES  
 Nintendo 64  
 Super Nintendo  
