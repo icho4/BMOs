@@ -5,7 +5,7 @@
 Custom EmulationStation theme designed around the Adventure Time character, BMO.
 
 ## License
-The theme is still in active development. All the grapic/animation assets were created from scratch, so please do not use them in other projects.
+The theme is still in active development. All the graphic/animation assets were created from scratch, so please do not use them in other projects.
 
 Having said that, feel free to modify the theme for your personal use only, but do not share modified versions of this theme.
 
