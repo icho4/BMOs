@@ -22,7 +22,9 @@ The theme includes:
 * runcommand_art
 	* Art assets for runCommand
 * splashscreen_vid
-	* 12 second video splashscreen (BMOs bootup)
+	* 12 second video splashscreen (BMOs bootup)  
+	
+Unfortunately, I haven't really designed the theme for video snaps. See ToDo.
 
 ### Installation Guide
 Install instructions for each feature.  
@@ -76,4 +78,5 @@ The initial system batch were based on what I played as a kid, but I am absolute
 - [ ] Sound Effects
 - [ ] Alignment issue in BMOs Config view
 - [ ] Music (?)
+- [ ] video snaps
 - [ ] Add more systems
